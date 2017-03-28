@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/** I want use aside too do it for the journey page in the beginning but I think the layout now is bettter so I do not use it **/
+aside.left {
+	float: left;
+	width: 30%;
+	position:relative;
+	margin:auto;
+	padding: 0 2% 0 2%;
+	clear:both;
+}
+aside.right{
+	float: right;
+	width: 30%;
+	position:relative;
+	margin:auto;
+	padding: 0 2% 0 2%;
+	clear:both;
+}
+aside.right{
+	float: inherit;
+	width: 30%;
+	position:relative;
+	margin:auto;
+	padding: 0 2% 0 2%;
+	clear:both;
+}
+aside.left li a img{
+	max-height: 100%;
+	max-width: 100%;
+	
+}
+aside.mid li a img{
+	max-height: 100%;
+	max-width: 100%;
+	
+}
+aside.right li a img{
+	max-height: 100%;
+	max-width: 100%;
+	
+}
+/** end**/
+
+/** modifly the index page of the text"you only live once, go and do something different."**/
+div.text_1{
+	margin: auto;
+	width: 80%;
+	position:relative;
+	text-align: center;
+	clear:both;
+	font-size: 110%;
+	
+	
+	}
+	/** to make changes on the text in different page**/
+	div.text{
+	margin: auto;
+	width: 80%;
+	position:relative;
+	clear:both;	
+	}
+	/** to make change on the photo size in different page**/
+div.photo{
+	margin: auto;
+	border: hidden;
+	width: 65%;
+	position:relative;
+	clear:both;	
+}
+/** achievement page make it to be center**/
+#center_3{
+	text-align: center;
+}
+/** to control the size of the video in journey page**/
+#center_1 {
+	 margin-left: auto;
+    margin-right: auto;
+    display: block;
+	position:relative;
+	clear:both;	
+	height: 100%;
+	width: 100%;
+	padding: 2% 0 2% 0;
+	
+}
+/** to control the size of the video in journey page**/
+#center_2 {
+	 margin-left: auto;
+    margin-right: auto;
+    display: block;
+	position:relative;
+	clear:both;	
+	height: 100%;
+	width: 100%;
+	padding: 2% 0 2% 0;
+}
+/** to control the size of the photo do not out of the div area and add so space to it**/
+div.photo img{
+	max-height: 100%;
+	max-width: 100%;
+	padding: 2% 0 2% 0;
+}
+/** to make change to the size of the h3(I use for most of the subtitle) size and spacing and the design**/
+.text h3 {
+	position:relative;
+	margin: auto;
+	text-align: center;
+	 margin: 3% 0 3% 0;
+	 font-size: 140%;
+	 text-decoration:underline;
+	 letter-spacing: 2px;
+}
+/** to make change to the size of the p(I use for most of the content) size and spacing and the design**/
+.text p{
+	 text-align: center;
+	 position:relative;
+	margin: auto;
+	text-align: center;
+	 margin: 1% 0 1% 0;
+	 
+}
+/** adding color and bold it when their is a word gold slive metal**/
+span.gold {
+	color: gold;
+	font-weight: bold;
+}
+span.slive{
+	color: #BFBFBF;
+	font-weight: bold;
+}
+span.metal{
+	color: #B17F45;
+	font-weight: bold;
+}
+/**end**/
+
+
+/** change the size and position in gallery page**/
+#gallery {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+/** to move the gallery to the certer position and contorl the width of this part, since the extra css should have something modifly the margain or paddind  so I need to move it back to the right position**/
+#crop {
+	margin: auto;
+	max-width: 70%;
+	position:relative;
+	left: 3.5%;
+}
+/** to make the photo in the certer**/
+.thumb {
+	margin: auto;
+}
+/** make change to one of the photo(the three price one) in the index page**/
+
+#price {
+	margin:auto;
+	height: 70%;
+	width: 70%;
+	position:relative;
+}
+/** make sure the photo is inside the div box**/
+#price ul img{
+	max-height: 100%;
+	max-width: 100%;
+}
+/** to make the gallery section color became white**/
+#gallery{
+	background-color:#FFFFFF;
+}
+

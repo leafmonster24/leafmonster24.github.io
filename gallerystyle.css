@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+/** gallery layout of the size of contain in the whole page**/
+#gallery {
+	width: 672px;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+/** contorl the photo size and make it can corp**/
+	#gallery .thumb {
+		width: 294px; height: 350px;
+		overflow: hidden;
+		float: left;
+		margin: 0 12px 12px 0;
+		border: 1px solid #CCCCCC;
+		position: relative;
+	}
+		#gallery .thumb img {
+			height: 350px;
+		}

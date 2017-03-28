@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+aside.left {
+	float: left;
+	width: 30%;
+	position:relative;
+	margin:auto;
+	padding: 0 2% 0 2%;
+	clear:both;
+}
+aside.right{
+	float: right;
+	width: 30%;
+	position:relative;
+	margin:auto;
+	padding: 0 2% 0 2%;
+	clear:both;
+}
+aside.right{
+	float: inherit;
+	width: 30%;
+	position:relative;
+	margin:auto;
+	padding: 0 2% 0 2%;
+	clear:both;
+}
+aside.left li a img{
+	max-height: 100%;
+	max-width: 100%;
+	
+}
+aside.mid li a img{
+	max-height: 100%;
+	max-width: 100%;
+	
+}
+aside.right li a img{
+	max-height: 100%;
+	max-width: 100%;
+	
+}
+div.text{
+	margin: auto;
+	width: 80%;
+	position:relative;
+	clear:both;	
+	}
+div.text_1{
+	margin: auto;
+	width: 80%;
+	position:relative;
+	text-align: center;
+	clear:both;
+	font-size: 110%;
+	
+	
+	}
+div.photo{
+	margin: auto;
+	border: hidden;
+	width: 65%;
+	position:relative;
+	clear:both;	
+}
+
+#center_3{
+	text-align: center;
+}
+
+#center_1 {
+	 margin-left: auto;
+    margin-right: auto;
+    display: block;
+	position:relative;
+	clear:both;	
+	height: 100%;
+	width: 100%;
+	padding: 2% 0 2% 0;
+	
+}
+#center_2 {
+	 margin-left: auto;
+    margin-right: auto;
+    display: block;
+	position:relative;
+	clear:both;	
+	height: 100%;
+	width: 100%;
+	padding: 2% 0 2% 0;
+}
+div.photo img{
+	max-height: 100%;
+	max-width: 100%;
+	padding: 2% 0 2% 0;
+}
+.text h3 {
+	position:relative;
+	margin: auto;
+	text-align: center;
+	 margin: 3% 0 3% 0;
+	 font-size: 140%;
+	 text-decoration:underline;
+	 letter-spacing: 2px;
+}
+
+.text p{
+	 text-align: center;
+	 position:relative;
+	margin: auto;
+	text-align: center;
+	 margin: 1% 0 1% 0;
+	 
+}
+span.gold {
+	color: gold;
+	font-weight: bold;
+}
+span.slive{
+	color: #BFBFBF;
+	font-weight: bold;
+}
+span.metal{
+	color: #B17F45;
+	font-weight: bold;
+}
+.price {
+	width: 30%;
+	height: 30%;
+	max-height:100%;
+	max-width: 100%;
+	size: auto;
+	
+}
+#content {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+#crop {
+	margin: auto;
+	max-width: 70%;
+	position:relative;
+	left: 3%;
+}
+.thumb {
+	margin: auto;
+}
+.rotate {
+	transform:  rotate(270deg);
+-ms-transform: rotate(270deg);
+-moz-transform: rotate(270deg);
+-webkit-transform: rotate(270deg);
+-o-transform: rotate(270deg);
+}
+#price {
+	margin:auto;
+	height: 70%;
+	width: 70%;
+	position:relative;
+}
+#price ul img{
+	max-height: 100%;
+	max-width: 100%;
+}
+#content{
+	background-color:#FFFFFF;
+}
